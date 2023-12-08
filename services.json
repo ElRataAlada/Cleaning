@@ -1,0 +1,108 @@
+[
+    {
+        "title": "Генеральне прибирання",
+        "price": "200",
+        "unit": "м²",
+        "time": "2",
+        "imageURL": "./img/card_cleaning.png",
+        "type": "main"
+    },
+    {
+        "title": "Експрес прибирання",
+        "price": "120",
+        "unit": "м²",
+        "time": "1",
+        "imageURL": "./img/card_express.png",
+        "type": "main"
+    },
+    {
+        "title": "Хімчистка дивана",
+        "price": "450",
+        "unit": "м²",
+        "time": "1.5",
+        "imageURL": "./img/card_sofa.png",
+        "type": "main"
+    },
+    {
+        "title": "Миття вікон",
+        "price": "300",
+        "unit": "м²",
+        "time": "1",
+        "imageURL": "./img/card_window.png",
+        "type": "main"
+    },
+    {
+        "title": "Озонування",
+        "price": "300",
+        "unit": "м²",
+        "time": "3",
+        "imageURL": "./img/card_ozon.png",
+        "type": "main"
+    },
+
+
+    {
+        "title": "Прибирання після пожежі",
+        "price": "300",
+        "unit": "м²",
+        "time": "2",
+        "icoURL": "./img/ico/fire.png",
+        "type": "other"
+    },
+    {
+        "title": "Прасування речей",
+        "price": "200",
+        "unit": "кг",
+        "time": "1",
+        "icoURL": "./img/ico/iron.png",
+        "type": "other"
+    },
+    {
+        "title": "Хімчистка килимів",
+        "price": "200",
+        "unit": "м²",
+        "time": "4",
+        "icoURL": "./img/ico/mat.png",
+        "type": "other"
+    },
+    {
+        "title": "Хімчистка м'яких іграшок",
+        "price": "300",
+        "unit": "кг",
+        "time": "4",
+        "icoURL": "./img/ico/toy.png",
+        "type": "other"
+    },
+    {
+        "title": "Прибирання після смерті",
+        "price": "300",
+        "unit": "м²",
+        "time": "1",
+        "icoURL": "./img/ico/death.png",
+        "type": "other"
+    },
+    {
+        "title": "Прибирання після ремонту",
+        "price": "300",
+        "unit": "м²",
+        "time": "1",
+        "icoURL": "./img/ico/paint.png",
+        "type": "other"
+    },
+    {
+        "title": "Прибирання перед народженням дитини",
+        "price": "200",
+        "unit": "м²",
+        "time": "1",
+        "icoURL": "./img/ico/baby.png",
+        "type": "other"
+    },
+    {
+        "title": "Прання штор",
+        "price": "300",
+        "unit": "м²",
+        "time": "3",
+        "icoURL": "./img/ico/wash.png",
+        "type": "other"
+    }
+]

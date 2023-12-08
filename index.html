@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/svg+xml" href="./img/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="./img/favicon/favicon.png">
+
+    <link rel="stylesheet" href="./css/index.min.css">
+    <script src="./index.js" type="module" defer></script>
+
+    <title>Dust Busters</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/favicon/favicon.png" alt="Logo">
+
+            <span class="logo_text">Dust Busters</span>
+        </div>
+
+        <nav id="header_menu">
+            <ul>
+                <li><a href="#about">Про компанію</a></li>
+                <li><a href="#services">Послуги</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+
+        <div class="phone">
+            <img src="./img/ico/phone.svg" alt="phone">
+            <a href="tel:+38 (093) 777-14-88">+38 (093) 777-14-88</a>
+        </div>
+
+        <div class="action">
+            <a href="#services" class="order_button">Замовити</a>
+
+            <div class="cart_wrapper">
+                <div class="cart" id="cart" animated>
+                    <img src="./img/ico/cart.svg" alt="Cart">
+                    <p class="cart_text">Замовити</p>
+                    <div class="cart_info">0</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="burger_wrapper">
+            <div class="burger">
+                <span class="burger_line"></span>
+            </div>
+
+            <div class="burger_menu"></div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="hero">
+            <div class="hero_inner">
+                <div class="hero_info">
+                    <h1 class="title">Професійні клінінгові&nbsp;послуги у&nbsp;Києві</h1>
+                    <p class="suptitle">Клінінгова компанія #1 за відгуками в Києві. Поки&nbsp;ви&nbsp;займаєтесь
+                        чимось&nbsp;
+                        важливим, ми&nbsp;наведемо&nbsp;порядок у&nbsp;вашій&nbsp;квартирі.</p>
+
+                    <a href="#services" class="order_button"><span>Замовити прибирання</span> <img
+                            src="./img/ico/arrow.svg" alt="arrow"></a>
+
+                    <div class="achievements">
+
+                        <div class="achievements__item">
+                            <span class="achievements__item_title">2650+</span>
+                            <p class="achievements__item_text">хімчисток <br> зроблено</p>
+                        </div>
+
+                        <div class="achievements__item">
+                            <span class="achievements__item_title">4,9 <img class="star" src="./img/ico/star.svg"
+                                    alt="star"></span>
+                            <p class="achievements__item_text">середній рейтинг <br> наших клінерів</p>
+                        </div>
+
+                        <div class="achievements__item">
+                            <span class="achievements__item_title">12700 м²</span>
+                            <p class="achievements__item_text">ми прибираємо <br> щомісяця</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="hero_img">
+                    <img src="./img/hero.png" alt="Cleaning team">
+                </div>
+            </div>
+
+            <div class="backlight_wrapper">
+                <div class="backlight"></div>
+                <div class="backlight"></div>
+            </div>
+        </div>
+
+        <div id="about" class="about">
+            <h1 class="title">Даруємо чистоту та затишок у вашому будинку</h1>
+            <h3 class="suptitle">Основна ціль нашої компанії – сервіс для тих, хто завжди хоче <br> перебувати у чистоті
+                та не витрачати час на прибирання.</h3>
+
+
+            <div class="cards">
+                <div class="card">
+                    <h3 class="card_title">Доступні <br> ціни</h3>
+                    <img src="./img/pig.png" alt="pig">
+                </div>
+                <div class="card">
+                    <h3 class="card_title">Безпечті <br> засоби</h3>
+                    <img src="./img/cleaning_items.png" alt="pig">
+                </div>
+                <div class="card">
+                    <p class="card_text">
+                        Ви можете залишити заявку на прибирання о <span>3-й годині ночі</span>, а на ранок до Вас вже
+                        приїде клінер. Якщо дуже треба клінінг - можете дзвонити серед ночі і якщо наш менеджер не спить
+                        - ми обов'язково візьмемо слухавку.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 class="card_title">Досвідчені <br> клінери</h3>
+                    <img src="./img/cleaners.png" alt="pig">
+                </div>
+            </div>
+        </div>
+
+        <div id="services" class="services">
+            <h2 class="title">Популярні послуги нашої компанії</h2>
+
+            <div class="cards" id="service_cards"></div>
+        </div>
+
+        <div class="services">
+            <h2 class="title">Інші послуги нашої компанії</h2>
+
+            <div class="cards" id="other_service_cards"> </div>
+        </div>
+
+        <div class="popup">
+            <div class="inner_popup order_popup">
+                <div class="container">
+                    <h2 class="title">Обрані послуги</h2>
+
+                    <div class="titles">
+                        <h3>Послуга</h3>
+                        <h3>Кількість</h3>
+                        <h3>Ціна</h3>
+                        <h3>Вартість</h3>
+                    </div>
+
+                    <div class="services" id="order_popup_items"></div>
+
+                    <button type="button" class="order_button" style="display: block; margin-left: auto;">Замовити за
+                        <span id="order_total">900</span> грн</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="section">
+            <h class="title">Контакти</h>
+
+            <div class="item">
+                <img src="./img/ico/time.svg" alt="time">
+                <p>Щоденно з 9:00 до 21:00</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/ico/phone.svg" alt="phone">
+                <a href="tel:+38 (093) 777-14-88">+38 (093) 777-14-88</a>
+            </div>
+
+            <div class="item">
+                <img src="./img/ico/mail.svg" alt="email">
+                <a href="mailto:dust-busters@gmail.com">dust-busters@gmail.com</a>
+            </div>
+
+            <div class="item">
+                <img src="./img/ico/map.svg" alt="geo">
+                <a href="https://maps.app.goo.gl/FRpvQTHHhKPfo9Eg7" target="_blank">
+                    пр. Перемоги, 37-А, 03056, Київ, 02000
+                </a>
+            </div>
+
+            <div class="links">
+                <a href="https://www.instagram.com/ryangoslyng/" target="_blank" class="link">
+                    <img src="./img/ico/instagram.svg" alt="instagram">
+                </a>
+
+                <a href="https://www.facebook.com/" target="_blank" class="link">
+                    <img src="./img/ico/facebook.svg" alt="facebook">
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank"
+                    class="link">
+                    <img src="./img/ico/youtube.svg" alt="youtube">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+@media (max-width: 1500px) {
+    .hero {
+        &_img {
+            justify-content: flex-end;
+        }
+    }
+
+    header {
+        ul {
+            gap: 30px;
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .hero {
+        &_img {
+            display: none;
+        }
+
+        &_info {
+            width: 100%;
+
+            .title {
+                max-width: 800px;
+            }
+        }
+
+        &_inner {
+            justify-content: center;
+        }
+    }
+
+    .about {
+        .cards {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .services {
+        .cards {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    #other_service_cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .order_popup {
+        .titles {
+            display: none;
+        }
+
+        .title {
+            font-size: 25px;
+        }
+
+        .container {
+            margin: 0;
+            padding: 30px 15px;
+        }
+
+        .services {
+            padding-right: 5px;
+            max-height: 70%;
+
+            .service_item {
+                display: block;
+
+                margin: 0 auto;
+                margin-bottom: 30px;
+
+                padding: 20px;
+
+                width: 100%;
+                border-radius: var(--border-medium);
+                border: 2px solid gray;
+
+                background-color: var(--color-dark);
+                font-size: 14px;
+
+                .amount_input {
+                    max-width: 6ch;
+                }
+
+                .name {
+                    font-size: 14px;
+                    font-weight: normal;
+                    flex-direction: row-reverse;
+
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+
+                    .icon {
+                        display: none;
+                    }
+                }
+
+                .amount,
+                .price {
+                    margin-bottom: 10px;
+                    display: inline-block;
+                }
+
+                .price {
+                    margin-left: 20px;
+                }
+
+                .total {
+                    font-weight: normal;
+                    font-size: 16px;
+
+                    &::before {
+                        content: "Всього: ";
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+@media (max-width: 970px) {
+    #other_service_cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .burger_wrapper {
+        display: block;
+    }
+
+    header {
+        padding: 15px 15px;
+    }
+
+    .cart_wrapper {
+        display: none;
+    }
+
+    .services {
+        .card:hover {
+            transform: scale(1);
+        }
+    }
+
+    main {
+        padding: 0 20px;
+        padding-top: 50px;
+    }
+
+    #header_menu {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        .action {
+            display: none;
+        }
+
+        .phone {
+            font-size: 14px;
+        }
+    }
+
+    .hero {
+        height: auto;
+
+        &_info {
+            .title {
+                font-size: 30px;
+            }
+
+            .order_button {
+                font-size: 16px;
+
+                img {
+                    padding-top: 0;
+                }
+            }
+
+            .achievements {
+                margin-top: 100px;
+                max-width: none;
+
+                &__item {
+                    &_title {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+
+    .about {
+        .title {
+            font-size: 30px;
+        }
+    }
+
+    .services {
+        .title {
+            font-size: 30px;
+        }
+
+        .cards {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    #other_service_cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
