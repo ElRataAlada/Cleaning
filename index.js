@@ -1,4 +1,4 @@
-import service_info from "./services.json";
+import * as service_info from "./services.json";
 const UNITS = {
     "м²": "Площа",
     "кг": "Вага",
