@@ -1,4 +1,4 @@
-import service_info from './services.json' assert { type: "json" };
+import service_info from './services.json';
 
 const UNITS = {
     "м²": "Площа",
